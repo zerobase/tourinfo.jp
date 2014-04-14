@@ -1,5 +1,6 @@
 {
   "port": 8145,
+  "output": "./public",
   "locals": {
     "lang": "ja",
     "url": "http://tourinfo.jp",
