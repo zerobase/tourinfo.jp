@@ -1,0 +1,12 @@
+.jumbotron,
+.panel {
+  opacity: 0.95;
+}
+
+.jumbotron h1 {
+  font-size: 28px;
+}
+
+a:not([href]) {
+  color: #000;
+}

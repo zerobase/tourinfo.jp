@@ -1,0 +1,27 @@
+{
+  "port": 8145,
+  "locals": {
+    "url": "http://tourinfo.jp",
+    "name": "観光情報インフラ整備計画",
+    "owner": "石橋秀仁",
+    "description": "私達は2020年東京五輪に向けた「おもてなし」の観光体験デザインと、それを可能にする観光情報インフラの整備計画を、民間から政策として提案します。"
+  },
+  "plugins": [
+    "./plugins/paginator.coffee"
+  ],
+  "require": {
+    "moment": "moment",
+    "_": "underscore",
+    "typogr": "typogr"
+  },
+  "jade": {
+    "pretty": true
+  },
+  "markdown": {
+    "smartLists": true,
+    "smartypants": true
+  },
+  "paginator": {
+    "perPage": 3
+  }
+}
