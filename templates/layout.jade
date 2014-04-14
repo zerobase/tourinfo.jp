@@ -33,13 +33,13 @@ html(lang=lang)
         include lang_switch_button
         include logo_l10n
         mixin lang_switch_button(lang)
-        h1.text-center
-          mixin logo_l10n(lang)
-        p.lead= description
+        mixin logo_l10n(lang)
+        block header
       
       .panel.panel-default
         .panel-body
           block content
+          block pagination
 
       .sharing.panel.panel-default
         .panel-body
@@ -52,7 +52,9 @@ html(lang=lang)
       .panel.panel-default
         .panel-body
           footer
-            p <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a> This work is licensed by tourinfo.jp under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+            section.copy
+              p <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a> This work is licensed by tourinfo.jp under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>. &mdash; powered by&nbsp;
+                a(href='https://github.com/jnordberg/wintersmith') Wintersmith
 
     // jQuery
     script(src="//code.jquery.com/jquery.js")

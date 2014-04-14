@@ -1,6 +1,32 @@
 extends layout
 
+block header
+  h1= locals.name
+  p.lead= locals.description
+
 block content
-  .panel.panel-default
-    .panel-body
-      != contents['index.md'].html
+  include author
+  each article in articles
+    article.article.intro
+      header
+        p.date
+          span= moment.utc(article.date).format('YYYY-MM-DD')
+        h2
+          a(href=article.url)= article.title
+      section.content
+        | !{ typogr(article.intro).typogrify() }
+        if article.hasMore
+          p.more
+            a(href=article.url) more
+
+block prepend pagination
+  nav
+    if prevPage
+      a(href=prevPage.url)
+        button.btn.btn-default « 新しい記事へ
+    else
+      a(href='/archive.html')
+        button.btn.btn-default « 全記事一覧へ
+    if nextPage
+      a(href=nextPage.url)
+        button.btn.btn-default 古い記事へ »
