@@ -13,7 +13,7 @@ Key Concepts
 - Web Accessibility
 - Inbound Tourism
 
-[For more detail (in Japanese)](.)
+[For more detail (in Japanese)](./)
 
 
 Contact
