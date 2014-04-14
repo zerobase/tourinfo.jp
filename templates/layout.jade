@@ -14,24 +14,87 @@ html(lang='ja')
       link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic|Anonymous+Pro:400,700,400italic,700italic|Merriweather:400,700,300')
       link(rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.1.0/css/bootstrap.min.css')
       link(rel='stylesheet', href='/css/main.css')
-  body(class=bodyclass)
-    header.header
-      div.content-wrap
-        block header
-          div.logo
-            h1
-              a(href=locals.url)= locals.name
-            p.description= locals.description
-    div#content
-      div.content-wrap
-        block content
-          h2 Welcome to zombocom!
-    footer
-      div.content-wrap
-        block footer
-          section.about
-            !=contents['about.md'].html
-          section.copy
-            p &copy; #{ new Date().getFullYear() } #{ locals.owner } &mdash; powered by&nbsp;
-              a(href='https://github.com/jnordberg/wintersmith') Wintersmith
-              //- please leave the "powered by" if you use the design
+      // OGP
+      meta(property="og:image", content="http://tourinfo.jp/images/logo.ja.png")
+      meta(property="og:image:type", content="image/png")
+      meta(property="og:image:width", content="400")
+      meta(property="og:image:height", content="400")
+      meta(property="fb:admins", content="649582105")
+
+  body
+    .container
+      .jumbotron
+        a(href="en")
+          button.btn.btn-info Switch to English (英語へ)
+        h1.text-center
+          img(alt="観光情報インフラ整備計画", src="images/logo.ja.png")
+
+        p.lead 私達は2020年東京五輪に向けた「おもてなし」の観光体験デザインと、それを可能にする観光情報インフラの整備計画を、民間から政策として提案します。
+      
+      .panel.panel-default
+        .panel-body
+          block content
+
+      .sharing.panel.panel-default
+        .panel-body
+          .g-plusone(data-size="medium")
+          a(href="//twitter.com/share", class="twitter-share-button", data-lang="ja") Tweet
+          a(href="https://twitter.com/tourinfojp", class="twitter-follow-button", data-show-count="false", data-lang="ja") Follow @twitterapi
+          .fb-like(data-layout="standard", data-action="like", data-show-faces="true", data-share="true")
+          .fb-like-box(data-href="https://www.facebook.com/tourinfojp", data-colorscheme="light", data-show-faces="true", data-header="true", data-stream="false", data-show-border="true")
+
+      .panel.panel-default
+        .panel-body
+          footer
+            p <a rel="license" href="http://creativecommons.org/licenses/by/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by/3.0/88x31.png" /></a> This work is licensed by tourinfo.jp under a <a rel="license" href="http://creativecommons.org/licenses/by/3.0/">Creative Commons Attribution 3.0 Unported License</a>.
+
+    // jQuery
+    script(src="//code.jquery.com/jquery.js")
+    
+    // Boostrap
+    script(src="//netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js")
+
+    // jquery-backstretch
+    script(src="//cdnjs.cloudflare.com/ajax/libs/jquery-backstretch/2.0.4/jquery.backstretch.min.js")
+    script.
+      var background_images = [
+        "/images/background/hakozaki_futo.jpg",
+        "/images/background/starbucks_dazaifu_tenman_gu.min.jpg",
+        "/images/background/takeo_city_library.jpg",
+        "/images/background/takeo_ookusu.jpg",
+        "/images/background/takeo_romon.jpg",
+        "/images/background/yokohama_nightview.jpg"
+      ];
+      var random_index = Math.floor(Math.random() * background_images.length);
+      var background_image = background_images[random_index];
+      $.backstretch(background_image);
+
+    // Twitter
+    script.
+      (function(){
+        var twitterWidgets = document.createElement('script');
+        twitterWidgets.type = 'text/javascript';
+        twitterWidgets.async = true;
+        twitterWidgets.src = '//platform.twitter.com/widgets.js';
+        document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+      })();
+    
+    // Facebook
+    #id="fb-root"
+    script.
+      (function(d, s, id) {
+        var js, fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) return;
+        js = d.createElement(s); js.id = id;
+        js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+        fjs.parentNode.insertBefore(js, fjs);
+      }(document, 'script', 'facebook-jssdk'));
+
+    // Google
+    script.
+      window.___gcfg = {lang: 'ja'};
+      (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/platform.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+      })();
