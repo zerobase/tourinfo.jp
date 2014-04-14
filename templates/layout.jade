@@ -24,16 +24,16 @@ html(lang='ja')
   body
     .container
       .jumbotron
-        a(href="en")
-          button.btn.btn-info Switch to English (英語へ)
+        - var pageLang = page && page.metadata && page.metadata.lang
+        - var description = page ? page.metadata.description : locals.description
+        include lang_switch_button
+        include logo_l10n
+        mixin lang_switch_button(pageLang)
         h1.text-center
-          img(alt="観光情報インフラ整備計画", src="images/logo.ja.png")
-
-        p.lead 私達は2020年東京五輪に向けた「おもてなし」の観光体験デザインと、それを可能にする観光情報インフラの整備計画を、民間から政策として提案します。
+          mixin logo_l10n(pageLang)
+        p.lead= description
       
-      .panel.panel-default
-        .panel-body
-          block content
+      block content
 
       .sharing.panel.panel-default
         .panel-body
