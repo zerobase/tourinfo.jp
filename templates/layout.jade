@@ -1,4 +1,5 @@
 - var lang = page && page.metadata && page.metadata.lang || locals.lang
+- var locale = lang == 'ja' ? 'ja_JP' : 'en_US'
 - var description = page ? page.metadata.description : locals.description
 doctype html
 - var title = page ? page.title : locals.name
@@ -38,8 +39,8 @@ html(lang=lang)
       .sharing.panel.panel-default
         .panel-body
           .g-plusone(data-size="medium")
-          a(href="//twitter.com/share", class="twitter-share-button", data-lang="ja") Tweet
-          a(href="https://twitter.com/tourinfojp", class="twitter-follow-button", data-show-count="false", data-lang="ja") Follow @twitterapi
+          a(href="//twitter.com/share", class="twitter-share-button", data-lang=lang) Tweet
+          a(href="https://twitter.com/tourinfojp", class="twitter-follow-button", data-show-count="false", data-lang=lang) Follow @twitterapi
           .fb-like(data-layout="standard", data-action="like", data-show-faces="true", data-share="true")
           .fb-like-box(data-href="https://www.facebook.com/tourinfojp", data-colorscheme="light", data-show-faces="true", data-header="true", data-stream="false", data-show-border="true")
 
@@ -86,13 +87,13 @@ html(lang=lang)
         var js, fjs = d.getElementsByTagName(s)[0];
         if (d.getElementById(id)) return;
         js = d.createElement(s); js.id = id;
-        js.src = "//connect.facebook.net/ja_JP/all.js#xfbml=1";
+        js.src = "//connect.facebook.net/#{locale}/all.js#xfbml=1";
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
 
     // Google
     script.
-      window.___gcfg = {lang: 'ja'};
+      window.___gcfg = {lang: '#{lang}'};
       (function() {
           var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
           po.src = 'https://apis.google.com/js/platform.js';
