@@ -17,7 +17,8 @@ block content
         | !{ typogr(article.intro).typogrify() }
         if article.hasMore
           p.more
-            a(href=article.url) more
+            a(href=article.url)
+              button.btn.btn-default more
 
 block prepend pagination
   nav

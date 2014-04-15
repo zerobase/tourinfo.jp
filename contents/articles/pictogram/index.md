@@ -69,6 +69,12 @@ template: article.jade
 ハイパー・ピクトグラムの多言語翻訳作業は、日本国内で一件だけの公共事業に集約できます。日本中の自治体や企業が個別に多言語化に投資する必要はありません。全国の観光情報を効率的に多言語化できます。**公共事業としての経済合理性**は十分にあるのではないかと考えています。
 
 
+本件にご関心をお持ちの方へ
+----------------------
+
+[観光情報インフラに関する情報交換や議論のためのFacebookグループ(tourinfo.jp)][8]へお気軽にご参加ください。あるいは発起人[石橋秀仁][9]の[メール][10]、[Facebook][11]、[Twitter][12]へお気軽にご連絡ください。
+
+
 [1]: https://www.mlit.go.jp/kankocho/news03_000100.html
 [2]: http://www.ecomo.or.jp/barrierfree/pictogram/picto_top.html
 [3]: hot_spring.png
@@ -76,3 +82,8 @@ template: article.jade
 [5]: https://www.ipa.go.jp/osc/20131120.html
 [6]: http://schema.org/
 [7]: http://www.google.com/landing/now/
+[8]: https://www.facebook.com/groups/267182690120144/
+[9]: http://ja.ishibashihideto.net/
+[10]: mailto:me@ishibashihideto.net
+[11]: https://www.facebook.com/ishibashi.hideto
+[12]: https://twitter.com/zerobase
