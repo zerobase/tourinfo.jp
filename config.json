@@ -5,7 +5,7 @@
     "lang": "ja",
     "url": "http://tourinfo.jp",
     "name": "観光情報インフラ整備計画",
-    "owner": "観光情報インフラ整備計画",
+    "owner": "観光情報インフラ整備計画"
   },
   "plugins": [
     "./plugins/paginator.coffee"
