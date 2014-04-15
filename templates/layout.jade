@@ -30,12 +30,15 @@ html(lang=lang)
 
   body
     .container
-      .jumbotron
+      .jumbotron.clearfix
         include lang_switch_button
         include logo_l10n
-        mixin lang_switch_button(lang)
-        mixin logo_l10n(lang)
-        block header
+        .row
+          mixin lang_switch_button(lang)
+          .col-md-2
+            mixin logo_l10n(lang)
+          .col-md-10
+            block header
       
       .panel.panel-default
         .panel-body
