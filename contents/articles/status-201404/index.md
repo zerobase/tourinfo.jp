@@ -1,6 +1,6 @@
 ---
 title: "プロジェクトの現状"
-description: "このプロジェクトはまだ最終成果物を発表する段階に至っていません。協力者を募集しています。"
+description: "観光情報インフラ整備計画は、まだ最終成果物を発表する段階に至っていません。協力者を募集しています。"
 author: ishibashi
 date: 2014-04-15
 template: article.jade
