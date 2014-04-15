@@ -15,4 +15,7 @@ tourinfo.jp
 ------------
 
 1. `gem install s3_website` で [s3_website](https://github.com/laurilehmijoki/s3_website) をインストール
-2. `s3_website push --site public` で Amazon S3 へプッシュ
+2. `wintersmith build` でビルド。
+3. `s3_website push --site public` で Amazon S3 へプッシュ
+
+ビルド＆デプロイ一発コマンド： `wintersmith build && s3_website push --site public`
