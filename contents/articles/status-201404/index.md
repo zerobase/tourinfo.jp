@@ -20,7 +20,7 @@ template: article.jade
 プロジェクトに関心をお持ちの方へ
 ------------------------------------
 
-[観光情報インフラに関する情報交換や議論のためのFacebookグループ(tourinfo.jp)][5]へお気軽にご参加ください。あるいは発起人[石橋秀仁][6]の[メール][7]、[Facebook][8]、[Twitter][9]へお気軽にご連絡ください。
+[Facebookグループ(tourinfo.jp)][5]で観光ICTに関する情報交換や議論をしています。お気軽にご参加ください。あるいは発起人[石橋秀仁][6]の[メール][7]、[Facebook][8]、[Twitter][9]へお気軽にご連絡ください。
 
 
 [1]: https://docs.google.com/document/d/1eOQnx09f_Gcd93DAvSS-AGWEW7rAcSxC7DuN74LpgPE/edit?usp=sharing

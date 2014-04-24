@@ -72,7 +72,7 @@ template: article.jade
 本件にご関心をお持ちの方へ
 ----------------------
 
-[観光情報インフラに関する情報交換や議論のためのFacebookグループ(tourinfo.jp)][8]へお気軽にご参加ください。あるいは発起人[石橋秀仁][9]の[メール][10]、[Facebook][11]、[Twitter][12]へお気軽にご連絡ください。
+[Facebookグループ(tourinfo.jp)][8]で観光ICTに関する情報交換や議論をしています。お気軽にご参加ください。あるいは発起人[石橋秀仁][9]の[メール][10]、[Facebook][11]、[Twitter][12]へお気軽にご連絡ください。
 
 
 [1]: https://www.mlit.go.jp/kankocho/news03_000100.html
