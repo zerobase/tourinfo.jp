@@ -23,6 +23,9 @@
     "smartypants": true
   },
   "paginator": {
-    "perPage": 10
+    "template": "paginator.jade",
+    "perPage": 10,
+    "first": "articles/index.html",
+    "filename": "articles/%d/index.html"
   }
 }

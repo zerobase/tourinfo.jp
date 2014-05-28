@@ -8,8 +8,9 @@ template: page.jade
 Key Concepts
 ------------
 
-- Multilingualization (English in particular)
+- Hyper Pictogram
 - Linked Open Data (LOD)
+- Multilingualization
 - Web Accessibility
 - Inbound Tourism
 

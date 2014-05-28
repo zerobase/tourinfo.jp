@@ -1,8 +1,9 @@
 extends layout
 
+- var title = "記事リスト"
+
 block header
-  h1 観光情報インフラ整備計画
-  p.lead 私達は2020年東京五輪に向けた「おもてなし」の観光体験デザインと、それを可能にする観光情報インフラの整備計画を、民間から政策として提案します。（<a href="/articles/about-project/">このプロジェクトについて</a>）
+  h1 記事リスト
 
 block content
   include author
@@ -26,8 +27,8 @@ block prepend pagination
       a(href=prevPage.url)
         button.btn.btn-default « 新しい記事へ
     else
-      a(href='/archive.html')
-        button.btn.btn-default « 全記事一覧へ
+      a(href='/articles/archive.html')
+        button.btn.btn-default 全記事一覧
     if nextPage
       a(href=nextPage.url)
         button.btn.btn-default 古い記事へ »
