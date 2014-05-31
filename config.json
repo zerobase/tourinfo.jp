@@ -4,7 +4,10 @@
   "locals": {
     "lang": "ja",
     "url": "http://tourinfo.jp",
-    "name": "観光情報インフラ整備計画",
+    "name": {
+      "ja": "観光情報インフラ整備計画",
+      "en": "Tourism Information Infrastructure Initiative"
+    },
     "owner": "観光情報インフラ整備計画"
   },
   "plugins": [
