@@ -77,5 +77,5 @@ template: article.jade
 [7]: http://www.google.com/landing/now/
 [8]: https://www.facebook.com/groups/267182690120144/
 [9]: http://ja.ishibashihideto.net/
-[10]: mailto:me@ishibashihideto.net
+[10]: mailto:hidetoi@gmail.com
 [11]: https://www.facebook.com/ishibashi.hideto
