@@ -6,11 +6,18 @@ date: 2014-04-15
 template: article.jade
 ---
 
-ウェブ上の観光情報には「施設情報」と「イベント情報」があります。それらに「ハイパー・ピクトグラム」を貼ることで、「ローコストな多言語化」と「検索性向上のためのタグ付け」が同時に達成できます。そのような観光情報インフラを実現するための公共事業「ハイパー・ピクトグラム整備事業」を提案します。
+ウェブ上の観光情報（主に施設情報とイベント情報）について、「ローコストな多言語化」と「検索性向上のためのタグ付け」を一気に実現する公共事業「ハイパー・ピクトグラム整備事業」を提案します。
 
 <span class="more"></span>
 
-なお、「ハイパー・ピクトグラム」は造語です。
+
+[2020年東京五輪に向けたハイパーピクトグラム構想 (Rough Ideas on Hyper Pictogram for Tokyo 2020)](https://www.slideshare.net/ishibashihideto/2020-38961104):
+
+<div style="max-width: 500px;">
+	<div class="embed-responsive embed-responsive-4by3">
+		<iframe class="embed-responsive-item" src="//www.slideshare.net/slideshow/embed_code/38961104" allowfullscreen> </iframe>
+	</div>
+</div>
 
 
 ハイパー・ピクトグラムは多言語キャプションを持つ
