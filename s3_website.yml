@@ -1,5 +1,5 @@
-s3_id: AKIAIBT4KAN3OZXWX5LA # IAM user `tourinfo.jp`
-s3_secret: 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
+s3_id: AKIAIINBFMR4HKTFHGZA # IAM user `tourinfo.jp`
+s3_secret: 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
 s3_bucket: tourinfo.jp
 s3_endpoint: ap-northeast-1
 

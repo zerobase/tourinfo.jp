@@ -1,3 +1,3 @@
 source 'https://rubygems.org'
 
-gem 's3cmd' 
+gem 's3_website' 
