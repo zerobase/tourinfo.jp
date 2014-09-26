@@ -5,7 +5,7 @@ lang: en
 template: page.jade
 ---
 
-Our main project is the **Hyper Pictogram** project which aim is to promote _accessibility_ of Tokyo. For that purpose, we will make every pictograms _machine readable_, _multilingual_ and being recognizable by _image recognition technologies_.
+Our main project is the **Hyper Pictogram** project which aim is to promote accessibility of Tokyo. For that purpose, we will make every pictograms _machine readable_, _multilingual_ and _recognizable_ image.
 
 You will easily find descriptions of outdoor, or physical, pictograms that you cannot understand their meaning by their figure. Image recognition technologies, like Google Goggles, will do it for you with a Hyper Pictogram catalog website.
 
