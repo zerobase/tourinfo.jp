@@ -14,8 +14,8 @@ tourinfo.jp
 サイト公開手順
 ------------
 
-1. `bundle install` で [s3cmd]() をインストール
+1. `bundle install` で s3_website をインストール
 2. `wintersmith build` でビルド。
-3. `s3cmd sync --acl-public --delete-removed --reduced-redundancy public/* s3://tourinfo.jp/` で Amazon S3 へプッシュ
+3. `s3_website push --site public` で Amazon S3 へプッシュ
 
 ※要注意： `wintersmith preview` では public が更新されない。
