@@ -46,7 +46,7 @@ template: page.jade
 
 - [Facebookグループ](https://www.facebook.com/groups/267182690120144/)
 - [Facebookページ](https://www.facebook.com/tourinfojp)
-- [Twitterアカウント](http://twitter.com/tourinfojp)
+- [Twitterアカウント](http://twitter.com/HyperPictogram)
 
 があります。
 
