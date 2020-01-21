@@ -59,7 +59,7 @@ template: article.pug
 
 ### プロジェクトの現状
 
-2014年12月現在、カタログサイトのプロトタイプ(<http://pictogram.tokyo>)を開発中です。
+2014年12月現在、カタログサイトのプロトタイプ(<https://hyperpictogram.github.io/>)を開発中です。
 
 下記の協力を募集しています：
 

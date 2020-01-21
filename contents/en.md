@@ -22,7 +22,7 @@ Moreover, Hyper Pictogram is an easy way for m17n (multilingualization) of web c
 Current Status
 --------------
 
-We are prototyping the catalog website of Hyper Pictogram: <http://hyperpictogram.github.io/>.
+We are prototyping the catalog website of Hyper Pictogram: <https://hyperpictogram.github.io/>.
 
 We would appreciate your help on designing the architecture, collecting existing pictograms and developing applications.
 
