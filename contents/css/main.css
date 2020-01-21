@@ -12,6 +12,13 @@
   font-size: 18px;
 }
 
+.status-of-this-project {
+  background-color: white;
+  padding: 1em;
+  margin: 1em;
+  font-weight: bold;
+}
+
 a:not([href]) {
   color: #000;
 }
