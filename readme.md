@@ -17,6 +17,7 @@ tourinfo.jp
 1. `npm install` で wintersmith 静的サイトジェネレーターをインストール
 2. `bundle install` で s3_website デプロイツールをインストール 
 3. `wintersmith build` でビルド。
-4. `s3_website push --site public` で Amazon S3 へプッシュ
+4. `bundle exec s3_website push --site public` で Amazon S3 へプッシュ
 
 ※要注意： `wintersmith preview` では public が更新されないので `wintersmith build` コマンドを使う。
+※初期設定： `bundle exec s3_website cfg create` で s3_website.yml を作成し、Amazon S3へのアクセストークンを記入する。
