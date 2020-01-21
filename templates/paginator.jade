@@ -1,34 +1,32 @@
 extends layout
 
-- var title = "記事リスト"
-
 block header
-  h1 記事リスト
+	h1 記事リスト
 
 block content
-  include author
-  each article in articles
-    article.article.intro
-      header
-        p.date
-          span= moment.utc(article.date).format('YYYY-MM-DD')
-        h2
-          a(href=article.url)= article.title
-      section.content
-        | !{ typogr(article.intro).typogrify() }
-        if article.hasMore
-          p.more
-            a(href=article.url)
-              button.btn.btn-default more
+	include author
+	each article in articles
+		article.article.intro
+			header
+				p.date
+					span= moment.utc(article.date).format('YYYY-MM-DD')
+				h2
+					a(href=article.url)= article.title
+			section.content
+				| !{ typogr(article.intro).typogrify() }
+				if article.hasMore
+					p.more
+						a(href=article.url)
+							button.btn.btn-default more
 
 block prepend pagination
-  nav
-    if prevPage
-      a(href=prevPage.url)
-        button.btn.btn-default « 新しい記事へ
-    else
-      a(href='/articles/archive.html')
-        button.btn.btn-default 全記事一覧
-    if nextPage
-      a(href=nextPage.url)
-        button.btn.btn-default 古い記事へ »
+	nav
+		if prevPage
+			a(href=prevPage.url)
+				button.btn.btn-default « 新しい記事へ
+		else
+			a(href='/articles/archive.html')
+				button.btn.btn-default 全記事一覧
+		if nextPage
+			a(href=nextPage.url)
+				button.btn.btn-default 古い記事へ »

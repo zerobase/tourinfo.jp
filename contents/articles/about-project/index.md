@@ -3,7 +3,7 @@ title: "このプロジェクトについて"
 description: "観光情報インフラ整備計画は、日本が「観光立国」として飛躍するための観光IT政策を提案するためのボランタリーなプロジェクトです。"
 author: ishibashi
 date: 2014-02-24
-template: article.jade
+template: article.pug
 ---
 
 観光情報インフラ整備計画は、日本が「観光立国」として飛躍するための観光IT政策を提案します。カギは政府・自治体のウェブサイトを次世代ウェブ技術 リンクト・オープン・データ (LOD) に対応させることです。それにより日本には世界最先端の「観光情報インフラ」が出来上がります。
@@ -28,7 +28,7 @@ template: article.jade
 [4]: https://trello.com/b/JjGPClOV/-
 [5]: https://www.facebook.com/groups/267182690120144/
 [6]: http://ja.ishibashihideto.net/
-[7]: mailto:me@ishibashihideto.net
+[7]: mailto:hidetoi@gmail.com
 [8]: https://www.facebook.com/ishibashi.hideto
 [9]: https://twitter.com/zerobase
 [10]: /articles/status-201404/

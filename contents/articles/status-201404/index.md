@@ -3,7 +3,7 @@ title: "プロジェクトの現状"
 description: "観光情報インフラ整備計画は、まだ最終成果物を発表する段階に至っていません。協力者を募集しています。"
 author: ishibashi
 date: 2014-04-15
-template: article.jade
+template: article.pug
 ---
 
 このプロジェクトはまだ最終成果物を発表する段階に至っていません。協力者を募集しています。
@@ -28,6 +28,6 @@ template: article.jade
 [4]: https://trello.com/b/JjGPClOV/-
 [5]: https://www.facebook.com/groups/267182690120144/
 [6]: http://ja.ishibashihideto.net/
-[7]: mailto:me@ishibashihideto.net
+[7]: mailto:hidetoi@gmail.com
 [8]: https://www.facebook.com/ishibashi.hideto
 [9]: https://twitter.com/zerobase

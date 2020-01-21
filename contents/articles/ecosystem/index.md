@@ -3,7 +3,7 @@ title: 観光情報エコシステムの全体構想図
 description: オープンデータとプライバシーの両立がカギになります。データ提供者のインセンティブとして、ユーザーのパーソナルデータが還元される仕組み「データのフィードバックループ」を構想しています。
 author: ishibashi
 date: 2014-04-25
-template: article.jade
+template: article.pug
 ---
 
 **オープンデータ**と**プライバシー**の両立がカギになります。データ提供者のインセンティブとして、ユーザーのパーソナルデータが還元される仕組み「データのフィードバックループ」を構想しています。
@@ -29,6 +29,6 @@ template: article.jade
 
 [c1]: https://www.facebook.com/groups/267182690120144/
 [c2]: http://ja.ishibashihideto.net/
-[c3]: mailto:me@ishibashihideto.net
+[c3]: mailto:hidetoi@gmail.com
 [c4]: https://www.facebook.com/ishibashi.hideto
 [c5]: https://twitter.com/zerobase

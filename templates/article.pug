@@ -1,0 +1,22 @@
+
+extends layout
+
+block append vars
+	- bodyclass = 'article-detail'
+
+block prepend title
+	| #{ page.title + " - "}
+
+block header
+	include author
+	h1= page.title
+	p.article-meta
+		span.date= moment.utc(page.date).format('YYYY-MM-DD')
+		|	by 
+		span.author
+			+author(page.metadata.author)
+
+block content
+	article.article
+		section.content!= typogr(page.html).typogrify()
+
